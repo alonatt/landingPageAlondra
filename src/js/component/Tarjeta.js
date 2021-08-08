@@ -1,10 +1,10 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-export function Card () {
+export function Card() {
 	return (
 		<div className="card" style={{ width: "18rem" }}>
-			<img {props.imagen}"..." className="card-img-top" alt="..." />
+			<img src="..." className="card-img-top" alt="..." />
 			<div className="card-body">
 				<h5 className="card-title">Card title</h5>
 				<p className="card-text">
@@ -19,6 +19,6 @@ export function Card () {
 	);
 }
 
-Card.propTypes = {
+/*Card.propTypes = {
 	imagen: PropTypes.text,
-};
+};*/
